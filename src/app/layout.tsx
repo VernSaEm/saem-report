@@ -57,7 +57,7 @@ export default async function RootLayout({
           fontVariables
         )}
       >
-       <h1>Load test1</h1>
+       <h1>Load </h1>
           <ThemeProvider
             attribute='class'
             defaultTheme='system'
