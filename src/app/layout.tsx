@@ -26,6 +26,7 @@ export const viewport: Viewport = {
 
 export default async function RootLayout({
   children
+ 
 }: {
   children: React.ReactNode;
 }) {
@@ -56,7 +57,7 @@ export default async function RootLayout({
           fontVariables
         )}
       >
-       
+       <h1>Load test</h1>
           <ThemeProvider
             attribute='class'
             defaultTheme='system'
